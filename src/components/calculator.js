@@ -10,7 +10,7 @@ class Calculator extends React.Component {
   render() {
     return (
       <div className="container">
-        <div className="cScreen">
+        <div className="calcscreen">
           0
         </div>
         <div className="buttons">
