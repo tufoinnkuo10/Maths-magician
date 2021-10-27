@@ -1,4 +1,6 @@
 # Getting Started with Create React App
+Maths Magician app
+a single webpage aplication for simple maths problems
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

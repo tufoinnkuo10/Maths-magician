@@ -1,0 +1,46 @@
+.calc-container {
+  width: 25%;
+  margin: 0 auto;
+  margin-top: 8rem;
+}
+
+.calc-screen {
+  height: 1.5em;
+  font-size: 2em;
+  text-align: right;
+  background-color: rgb(116, 114, 114);
+  color: wheat;
+  padding: 0.4em;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 0.1rem;
+  grid-row-gap: 0.1rem;
+  background-color: rgb(230, 223, 223);
+}
+
+button {
+  border: none;
+  padding: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(209, 150, 150);
+}
+
+.buttons .orange-button {
+  background-color: rgb(240, 157, 62);
+}
+
+.buttons .big-space {
+  grid-column: span 2;
+  width: 100%;
+}
+
+button.orange-button {
+  background-color: rgb(223, 205, 171);
+}
