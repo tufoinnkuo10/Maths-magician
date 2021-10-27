@@ -4,12 +4,12 @@
   margin-top: 8rem;
 }
 
-calc-screen {
-  height: 2em;
+.calc-screen {
+  height: 1.5em;
   font-size: 2em;
   text-align: right;
-  background-color: rgb(51, 49, 49);
-  color: rgb(0, 0, 0);
+  background-color: rgb(116, 114, 114);
+  color: wheat;
   padding: 0.4em;
 }
 
@@ -32,7 +32,7 @@ button {
   background-color: rgb(240, 157, 62);
 }
 
-.buttons .double-space {
+.buttons .big-space {
   grid-column: span 2;
   width: 100%;
 }
