@@ -28,6 +28,10 @@ button {
   cursor: pointer;
 }
 
+button:hover {
+  background-color: rgb(209, 150, 150);
+}
+
 .buttons .orange-button {
   background-color: rgb(240, 157, 62);
 }
