@@ -28,3 +28,15 @@ button {
   cursor: pointer;
 }
 
+.buttons .orange-button {
+  background-color: rgb(240, 157, 62);
+}
+
+.buttons .double-space {
+  grid-column: span 2;
+  width: 100%;
+}
+
+button.orange-button {
+  background-color: rgb(223, 205, 171);
+}
