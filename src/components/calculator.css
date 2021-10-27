@@ -1,3 +1,14 @@
-.calcs {
-  color: blue;
+.calc-container {
+  width: 25%;
+  margin: 0 auto;
+  margin-top: 8rem;
+}
+
+calc-screen {
+  height: 2em;
+  font-size: 2em;
+  text-align: right;
+  background-color: rgb(82, 32, 32);
+  color: white;
+  padding: 0.4em;
 }
