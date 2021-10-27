@@ -17,6 +17,10 @@ class Calculator extends React.Component {
           <button type="button">AC</button>
           <button type="button">+/-</button>
           <button type="button">%</button>
+          <button className="orange-button" type="button">&divide;</button>
+          <button type="button">7</button>
+          <button type="button">8</button>
+          <button type="button">9</button>
         </div>
       </div>
     );
