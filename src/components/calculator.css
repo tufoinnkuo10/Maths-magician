@@ -1,11 +1,11 @@
 .calc-container {
-  width: 25%;
+  width: 35%;
   margin: 0 auto;
   margin-top: 8rem;
 }
 
 .calc-screen {
-  height: 1.5em;
+  height: 1.3em;
   font-size: 2em;
   text-align: right;
   background-color: rgb(116, 114, 114);
@@ -34,6 +34,10 @@ button:hover {
 
 .buttons .orange-button {
   background-color: rgb(240, 157, 62);
+}
+
+.buttons .orange-button:hover {
+  background-color: rgb(230, 223, 223);
 }
 
 .buttons .big-space {
