@@ -32,6 +32,12 @@ class Calculator extends React.Component {
     const { next, total, operation } = this.state;
     let result = '';
     if (total) {
-     
+      result = `${total} ${operation || ''} ${next || ''}`;
+    } else if (next) {
+      result = next;
+    }
+    
+  }
+}
 
 export default Calculator;
