@@ -1,5 +1,6 @@
 import React from 'react';
 import './calculator.css';
+import calculate from '../logic/calculate';
 
 class Calculator extends React.Component {
   constructor(props) {
@@ -7,36 +8,12 @@ class Calculator extends React.Component {
     this.state = {};
   }
 
-  render() {
-    return (
-      <div className="calc-container">
-        <div className="calc-screen">
-          0
-        </div>
-        <div className="buttons">
-          <button type="button">AC</button>
-          <button type="button">+/-</button>
-          <button type="button">%</button>
-          <button className="orange-button" type="button">&divide;</button>
-          <button type="button">7</button>
-          <button type="button">8</button>
-          <button type="button">9</button>
-          <button className="orange-button" type="button">&times;</button>
-          <button type="button">4</button>
-          <button type="button">5</button>
-          <button type="button">6</button>
-          <button className="orange-button" type="button">-</button>
-          <button type="button">1</button>
-          <button type="button">2</button>
-          <button type="button">3</button>
-          <button className="orange-button" type="button">+</button>
-          <button className="big-space" type="button">0</button>
-          <button type="button">.</button>
-          <button className="orange-button" type="button">=</button>
-        </div>
-      </div>
-    );
-  }
-}
+  whenClicked = (e) => {
+    const buttonName = e.target.textContent;
+    const newObj = calculate(this.state, buttonName);
+    this.setState(newObj);
+  };
+
+  
 
 export default Calculator;
