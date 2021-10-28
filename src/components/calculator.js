@@ -24,11 +24,14 @@ class Calculator extends React.Component {
       }
 
       if (button === '0') {
-        return 'double-space';
+        return 'big-space';
       }
       return '';
     };
 
-    
+    const { next, total, operation } = this.state;
+    let result = '';
+    if (total) {
+     
 
 export default Calculator;
