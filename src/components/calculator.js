@@ -41,7 +41,9 @@ class Calculator extends React.Component {
         <div className="Calc-creen">
           {result}
         </div>
-       
+        <div className="buttons">
+          {buttonNames.map((button) => (<button key={button} className={generateClassName(button)} onClick={this.whenClicked} type="button">{button}</button>))}
+        </div>
       </div>
     );
   }
