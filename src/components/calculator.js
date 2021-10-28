@@ -14,6 +14,10 @@ class Calculator extends React.Component {
     this.setState(newObj);
   };
 
-  
+  render() {
+    const buttonNames = ['AC', '+/-', '%', '\u00F7', '7', '8', '9', '\u00D7',
+      '4', '5', '6', '-', '1', '2', '3', '+', '0', '.', '='];
+
+    
 
 export default Calculator;
