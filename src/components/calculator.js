@@ -8,18 +8,18 @@ class Calculator extends React.Component {
     this.state = {};
   }
 
-  whenClicked = (e) => {
+  ifClicked = (e) => {
     const buttonName = e.target.textContent;
     const newObj = calculate(this.state, buttonName);
     this.setState(newObj);
   };
 
   render() {
-    const buttonNames = ['AC', '+/-', '%', '\u00F7', '7', '8', '9', '\u00D7',
+    const buttonNames = ['AC', '+/-', '%', '÷', '7', '8', '9', 'x',
       '4', '5', '6', '-', '1', '2', '3', '+', '0', '.', '='];
 
-    const generateClassName = (button) => {
-      if (button === '\u00F7' || button === '\u00D7' || button === '-' || button === '+' || button === '=') {
+    const getClassName = (button) => {
+      if (button === '÷' || button === 'x' || button === '-' || button === '+' || button === '=') {
         return 'orange-button';
       }
 
@@ -37,12 +37,12 @@ class Calculator extends React.Component {
       result = next;
     }
     return (
-      <div className="container">
-        <div className="Calc-creen">
+      <div className="calc-container">
+        <div className="calc-screen">
           {result}
         </div>
         <div className="buttons">
-          {buttonNames.map((button) => (<button key={button} className={generateClassName(button)} onClick={this.whenClicked} type="button">{button}</button>))}
+          {buttonNames.map((button) => (<button key={button} className={getClassName(button)} onClick={this.ifClicked} type="button">{button}</button>))}
         </div>
       </div>
     );
