@@ -36,7 +36,14 @@ class Calculator extends React.Component {
     } else if (next) {
       result = next;
     }
-    
+    return (
+      <div className="container">
+        <div className="Calc-creen">
+          {result}
+        </div>
+       
+      </div>
+    );
   }
 }
 
