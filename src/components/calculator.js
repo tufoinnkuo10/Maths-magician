@@ -18,6 +18,17 @@ class Calculator extends React.Component {
     const buttonNames = ['AC', '+/-', '%', '\u00F7', '7', '8', '9', '\u00D7',
       '4', '5', '6', '-', '1', '2', '3', '+', '0', '.', '='];
 
+    const generateClassName = (button) => {
+      if (button === '\u00F7' || button === '\u00D7' || button === '-' || button === '+' || button === '=') {
+        return 'orange-button';
+      }
+
+      if (button === '0') {
+        return 'double-space';
+      }
+      return '';
+    };
+
     
 
 export default Calculator;
