@@ -5,8 +5,8 @@ import calculate from '../logic/calculate';
 const calculator () => {
   const [object, setObject] = useState({});
 
-}
-/* class Calculator extends React.Component {
+
+  /* class Calculator extends React.Component {
   constructor(props) {
     super(props);
     this.state = {};
@@ -18,14 +18,14 @@ const calculator () => {
     const newObj = calculate (object, buttonName);
     setObject(newObj);
   }
-/*
-  ifClicked = (e) => {
+    /*
+    ifClicked = (e) => {
     const buttonName = e.target.textContent;
     const newObj = calculate(this.state, buttonName);
     this.setState(newObj);
-  };
+    };
 
-  render() { */
+    render() { */
 
     const buttonNames = ['AC', '+/-', '%', '÷', '7', '8', '9', 'x',
       '4', '5', '6', '-', '1', '2', '3', '+', '0', '.', '='];
@@ -41,7 +41,7 @@ const calculator () => {
       return '';
     };
 
-    const { next, total, operation } = this.state;
+    const { next, total, operation } = object;
     let result = '';
     if (total) {
       result = `${total} ${operation || ''} ${next || ''}`;
@@ -58,7 +58,7 @@ const calculator () => {
         </div>
       </div>
     );
-  }
+  
 }
 
 export default Calculator;
