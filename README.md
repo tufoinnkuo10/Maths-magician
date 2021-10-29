@@ -1,9 +1,17 @@
-# Getting Started with Create React App
-Maths Magician app
-a single webpage aplication for simple maths problems
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Project Name
+Maths Magician
 
+
+> This is a Calculator app that solves basic math problems. Built with React
+> ![demo-gif](./images/calcdemo.gif)
+
+
+Additional description about the project and its features.
+
+- It works like a normal calculator whereby you input numbers and chose your operator 
+- You get the results after clicking the Equals-to(=) sign.
 ## Available Scripts
 
 In the project directory, you can run:
