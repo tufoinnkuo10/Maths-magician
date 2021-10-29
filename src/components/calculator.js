@@ -5,26 +5,11 @@ import calculate from '../logic/calculate';
 const Calculator = () => {
   const [object, setObject] = useState({});
 
-  //  class Calculator extends React.Component {
-  //  constructor(props) {
-  //  super(props);
-  //  this.state = {};
-  //  }
-
-  // add event handler
   const ifClicked = (e) => {
     const buttonName = e.target.textContent;
     const newObj = calculate(object, buttonName);
     setObject(newObj);
   };
-  /*
-  ifClicked = (e) => {
-  const buttonName = e.target.textContent;
-  const newObj = calculate(this.state, buttonName);
-  this.setState(newObj);
-  };
-
-  render() { */
 
   const buttonNames = ['AC', '+/-', '%', '÷', '7', '8', '9', 'x',
     '4', '5', '6', '-', '1', '2', '3', '+', '0', '.', '='];
