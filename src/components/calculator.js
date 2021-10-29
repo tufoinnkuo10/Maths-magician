@@ -54,7 +54,7 @@ const calculator () => {
           {result}
         </div>
         <div className="buttons">
-          {buttonNames.map((button) => (<button key={button} className={getClassName(button)} onClick={this.ifClicked} type="button">{button}</button>))}
+          {buttonNames.map((button) => (<button key={button} className={getClassName(button)} onClick={ifClicked} type="button">{button}</button>))}
         </div>
       </div>
     );
