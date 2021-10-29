@@ -12,7 +12,12 @@ const calculator () => {
     this.state = {};
   }*/
 
-  
+  // add event handler
+  const ifClicked = (e) => {
+    const buttonName = e.target.textContent;
+    const newObj = calculate (object, buttonName);
+    setObject(newObj);
+  }
 /*
   ifClicked = (e) => {
     const buttonName = e.target.textContent;
@@ -21,8 +26,7 @@ const calculator () => {
   };
 
   render() { */
-    
-    
+
     const buttonNames = ['AC', '+/-', '%', '÷', '7', '8', '9', 'x',
       '4', '5', '6', '-', '1', '2', '3', '+', '0', '.', '='];
 
