@@ -9,7 +9,7 @@ const Calculator = () => {
   //  constructor(props) {
   //  super(props);
   //  this.state = {};
-  //  } 
+  //  }
 
   // add event handler
   const ifClicked = (e) => {
