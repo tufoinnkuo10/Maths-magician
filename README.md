@@ -10,7 +10,10 @@ It consist of a Home/Calculator and Quote page
 
 
 Additional description about the project and its features.
-- it has three pages linked together 
+The Home page welcomes you to the app
+The calculator page allow you to make some basic calculations
+The Quote page give some few Quotes by math experts
+
 - It works like a normal calculator whereby you input numbers and chose your operator 
 - You get the results after clicking the Equals-to(=) sign.
 ## Available Scripts

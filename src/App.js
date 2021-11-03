@@ -2,14 +2,14 @@ import { Switch, Route } from 'react-router-dom';
 import Calculator from './components/calculator';
 import Header from './components/Header';
 import Quote from './components/QuotePage';
-import Home from './components/Homepage';
+import Homepage from './components/Homepage';
 
 const App = () => (
   <>
     <Header />
     <Switch>
       <Route path="/" exact>
-        <Home />
+        <Homepage />
       </Route>
       <Route path="/calculator">
         <Calculator />

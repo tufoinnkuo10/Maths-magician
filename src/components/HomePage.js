@@ -1,7 +1,7 @@
 import React from 'react';
-import styles from './Home.css';
+import styles from './Maison.css';
 
-const Home = () => (
+const Homepage = () => (
   <div className={styles.header}>
     <h1>Welcome to our Maths page</h1>
     <p>
@@ -21,4 +21,4 @@ const Home = () => (
   </div>
 );
 
-export default Home;
+export default Homepage;
