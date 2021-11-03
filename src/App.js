@@ -1,8 +1,9 @@
+import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Calculator from './components/calculator';
 import Header from './components/Header';
-import Quote from './components/QuotePage';
 import Homepage from './components/Homepage';
+import Quote from './components/QuotePage';
 
 const App = () => (
   <>
