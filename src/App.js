@@ -2,7 +2,6 @@ import { Switch, Route } from 'react-router-dom';
 import Calculator from './components/calculator';
 import Header from './components/Header';
 import Quote from './components/QuotePage';
-/* eslint-disable-next-line */
 import Home from './components/Homepage';
 
 const App = () => (

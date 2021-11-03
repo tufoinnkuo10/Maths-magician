@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Homepage.css';
+import styles from './Home.css';
 
 const Home = () => (
   <div className={styles.header}>
