@@ -4,12 +4,13 @@
 Maths Magician
 
 
-> This is a Calculator app that solves basic math problems. Built with React
-> ![demo-gif](./images/calcdemo.gif)
+> This is a SPA Calculator app that solves basic math problems. Built with React
+It consist of a Home/Calculator and Quote page
+> ![demo-gif](./images/calc.gif)
 
 
 Additional description about the project and its features.
-
+- it has three pages linked together 
 - It works like a normal calculator whereby you input numbers and chose your operator 
 - You get the results after clicking the Equals-to(=) sign.
 ## Available Scripts
