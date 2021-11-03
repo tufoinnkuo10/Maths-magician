@@ -5,12 +5,15 @@ Maths Magician
 
 
 > This is a SPA Calculator app that solves basic math problems. Built with React
-It consist of a Home/Calculator and Quote page
+It consist Three basic pages, the Home/Calculator and Quote page
 > ![demo-gif](./images/calc.gif)
 
 
 Additional description about the project and its features.
-- it has three pages linked together 
+The Home page is the main page and welcomes you to the app
+The Calculator page is where you make all the basic calculations
+The Quote page has some Quotes made by maths heroes
+
 - It works like a normal calculator whereby you input numbers and chose your operator 
 - You get the results after clicking the Equals-to(=) sign.
 ## Available Scripts
