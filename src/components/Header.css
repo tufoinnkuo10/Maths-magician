@@ -1,6 +1,6 @@
 .header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
@@ -19,4 +19,18 @@
   transition-duration: 120ms;
   transition-property: border, background-color;
   border-bottom: 2px solid transparent;
+}
+
+.headd {
+  justify-content: space-between;
+  display: flex;
+}
+
+.ullinks {
+  font-weight: bold;
+  font-size: large;
+}
+
+.ullinks:hover {
+  color: rgb(121, 19, 19);
 }
