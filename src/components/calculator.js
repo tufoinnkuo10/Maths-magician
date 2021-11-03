@@ -34,11 +34,14 @@ const Calculator = () => {
   }
   return (
     <div className="calc-container">
-      <div className="calc-screen">
-        {result}
-      </div>
-      <div className="buttons">
-        {buttonNames.map((button) => (<button key={button} className={getClassName(button)} onClick={ifClicked} type="button">{button}</button>))}
+      <h1>Lets do some Maths</h1>
+      <div>
+        <div className="calc-screen">
+          {result}
+        </div>
+        <div className="buttons">
+          {buttonNames.map((button) => (<button key={button} className={getClassName(button)} onClick={ifClicked} type="button">{button}</button>))}
+        </div>
       </div>
     </div>
   );
