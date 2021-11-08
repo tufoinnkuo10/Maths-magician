@@ -9,7 +9,7 @@ Maths Magician
 
 # Live links
 ![Heroku-link](https://maths-magician10.herokuapp.com/)
-![Netlify-link](https://tufoinmaths-magician.netlify.app/)
+![Netlify-link](tufoinmaths-magician.netlify.app)
 
 
 Additional description about the project and its features.
