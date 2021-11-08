@@ -8,6 +8,10 @@ Maths Magician
 It consist Three basic pages, the Home/Calculator and Quote page
 > ![demo-gif](./images/calc.gif)
 
+# Live links
+![Heroku-link](https://maths-magician10.herokuapp.com/)
+![Netlify-link](https://tufoinmaths-magician.netlify.app/)
+
 
 Additional description about the project and its features.
 The Home page is the main page and welcomes you to the app
