@@ -7,6 +7,10 @@ Maths Magician
 > This is a Calculator app that solves basic math problems. Built with React
 > ![demo-gif](./images/calcdemo.gif)
 
+# Live links
+![Heroku-link](https://maths-magician10.herokuapp.com/)
+![Netlify-link](tufoinmaths-magician.netlify.app)
+
 
 Additional description about the project and its features.
 
