@@ -10,7 +10,7 @@ It consist Three basic pages, the Home/Calculator and Quote page
 
 # Live links
 ![Heroku-link](https://maths-magician10.herokuapp.com/)
-![Netlify-link](https://tufoinmaths-magician.netlify.app/)
+![Netlify-link](https://tufoins-maths-app.netlify.app/)
 
 
 Additional description about the project and its features.
